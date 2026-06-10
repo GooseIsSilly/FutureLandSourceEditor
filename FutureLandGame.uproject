@@ -3,6 +3,13 @@
 	"EngineAssociation": "5.5",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "FutureLandGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -12,16 +19,23 @@
 			]
 		},
 		{
-			"Name": "MultiplayerFPS",
-			"Enabled": true,
-			"MarketplaceURL": "https://www.fab.com/listings/708e1500-4218-4c99-ab20-ab241e163edf"
-		},
-		{
 			"Name": "AnimationWarping",
 			"Enabled": true
 		},
 		{
 			"Name": "Landmass",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamSockets",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamIntegrationKit",
 			"Enabled": true
 		},
 		{
