@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class FutureLandGameEditorTarget : TargetRules
+public class SkyfallGameEditorTarget : TargetRules
 {
-	public FutureLandGameEditorTarget(TargetInfo Target) : base(Target)
+	public SkyfallGameEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
-		ExtraModuleNames.AddRange( new string[] { "FutureLandGame" } );
+		ExtraModuleNames.AddRange( new string[] { "Skyfall" } );
 	}
 }

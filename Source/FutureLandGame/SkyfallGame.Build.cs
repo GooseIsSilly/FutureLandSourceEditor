@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class FutureLandGame : ModuleRules
+public class SkyfallGame : ModuleRules
 {
-	public FutureLandGame(ReadOnlyTargetRules Target) : base(Target)
+	public SkyfallGame(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
