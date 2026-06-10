@@ -1,3 +1,12 @@
+// MyClass.h
+#pragma once
+
+class MyClass
+{
+public:
+    MyClass();
+    ~MyClass();
+};
 // Fill out your copyright notice in the Description page of Project Settings.
 
 

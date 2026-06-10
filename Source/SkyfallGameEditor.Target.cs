@@ -10,6 +10,8 @@ public class SkyfallGameEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
-		ExtraModuleNames.AddRange( new string[] { "Skyfall" } );
-	}
+		ExtraModuleNames.AddRange(new string[] { "SkyfallGame" });
+        bOverrideBuildEnvironment = true;
+        AdditionalCompilerArguments = "/wd4668";
+    }
 }

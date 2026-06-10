@@ -3,4 +3,4 @@
 #include "SkyfallGame.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, FutureLandGame, "FutureLandGame" );
+IMPLEMENT_PRIMARY_GAME_MODULE(FDefaultGameModuleImpl, SkyfallGame, "SkyfallGame");

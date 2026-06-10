@@ -3,13 +3,4 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
-/**
- * 
- */
-class FUTURELANDGAME_API MyClass
-{
-public:
-	MyClass();
-	~MyClass();
-};
+#include "UObject/NoExportTypes.h"
